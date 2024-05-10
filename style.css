@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: skyblue ;
+  
+  
+  opacity: 0.8;
+  background-size: 10px 10px;
+}
+.searchBar{
+  width: 30%;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+#cityName{
+  width: 60%;
+  height: 50px;
+  border-radius: 100px;
+}
+.searchBar>button{
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+}
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.weather-inner {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.8;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 14px;
+}
+
+.weather-inner > div {
+  margin-bottom: 7px;
+}
